@@ -1,0 +1,84 @@
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(135deg, #e0f7fa, #fff3e0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 40px 20px;
+    color: #333;
+}
+
+h1 {
+    color: #00796b;
+    margin-bottom: 30px;
+    font-size: 32px;
+}
+
+form {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+}
+
+input[type="file"] {
+    margin: 15px 0;
+    padding: 12px;
+    border: 2px dashed #b2dfdb;
+    background-color: #f0fdfa;
+    border-radius: 8px;
+    width: 100%;
+    cursor: pointer;
+}
+
+button {
+    background-color: #00796b;
+    color: white;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #004d40;
+}
+
+.result {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.result h2 {
+    color: #004d40;
+    margin-bottom: 20px;
+}
+
+.result img {
+    max-width: 320px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    margin-top: 10px;
+}
+
+.description {
+    margin-top: 20px;
+    padding: 15px;
+    background: #e0f2f1;
+    border-left: 5px solid #00796b;
+    border-radius: 6px;
+    font-size: 15px;
+    max-width: 700px;
+    line-height: 1.6;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+}
